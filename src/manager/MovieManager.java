@@ -5,12 +5,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * 영화 데이터의 등록, 전체 조회, 검색을 관리하는 클래스
  */
 public class MovieManager {
     // 순차적인 전체 조회를 위한 ArrayList
     private ArrayList<Movie> movieList = new ArrayList<>();
-    // 영화 제목으로 O(1)의 빠른 검색을 수행하기 위한 HashMap
     private HashMap<String, Movie> movieMap = new HashMap<>();
 
     /**
@@ -30,7 +28,6 @@ public class MovieManager {
     }
 
     /**
-     * 2. 영화 전체 조회 메서드
      */
     public void displayAllMovies() {
         System.out.println("\n[영화 목록]");

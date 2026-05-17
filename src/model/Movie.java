@@ -7,7 +7,6 @@ public class Movie {
     private String title;  // 영화 제목
     private String genre;  // 장르
     private String time;   // 상영 시간
-    private int price;     // 티켓 가격
 
     // 생성자: 영화 객체를 생성할 때 필드 값을 초기화
     public Movie(String title, String genre, String time, int price) {

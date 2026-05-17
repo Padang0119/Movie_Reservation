@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 프로그램의 흐름을 제어하고 사용자 조작 메뉴 인터페이스를 제공하는 실행 클래스
  */
 public class Main {
-    public static void main(String[] args) {
+    static void main() {
         Scanner sc = new Scanner(System.in);
 
         // 각 담당 기능을 수행할 매니저 인스턴스 생성
@@ -46,7 +46,7 @@ public class Main {
                     System.out.print("상영 시간 입력 (예: 19:00): ");
                     String time = sc.nextLine();
 
-                    int price = 0;
+                    int price;
                     // 티켓 가격 입력 예외 처리 루프
                     while (true) {
                         try {
@@ -107,7 +107,7 @@ public class Main {
                         break;
                     }
 
-                    int people = 0;
+                    int people;
                     // 예매 인원수 입력 예외 처리 루프
                     while (true) {
                         try {

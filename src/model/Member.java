@@ -15,7 +15,6 @@ public class Member {
         this.phone = phone;
     }
 
-    // Getter 메서드들: 외부에서 필드 값을 읽을 수 있도록 제공
     public String getId() { return id; }
     public String getName() { return name; }
     public String getPhone() { return phone; }

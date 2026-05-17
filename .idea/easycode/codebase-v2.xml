@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/Main.java;C:/Users/a0102/OneDrive/Desktop/Movie_Reservation/src/manager/MemberManager.java;C:/Users/a0102/OneDrive/Desktop/Movie_Reservation/src/manager/MovieManager.java;C:/Users/a0102/OneDrive/Desktop/Movie_Reservation/src/manager/ReservationManager.java;C:/Users/a0102/OneDrive/Desktop/Movie_Reservation/src/model/Member.java;C:/Users/a0102/OneDrive/Desktop/Movie_Reservation/src/model/Movie.java;C:/Users/a0102/OneDrive/Desktop/Movie_Reservation/src/model/Reservation.java" />
+  </component>
+</project>

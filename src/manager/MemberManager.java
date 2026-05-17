@@ -22,11 +22,9 @@ public class MemberManager {
             System.out.println("이미 존재하는 ID입니다.");
             return;
         }
-        // 회원 객체를 생성하여 리스트와 맵에 저장
         Member member = new Member(id, name, phone);
         memberList.add(member);
         memberMap.put(id, member);
-        System.out.println("회원 등록이 완료되었습니다.");
     }
 
     /**

@@ -68,7 +68,6 @@ public class ReservationManager {
             System.out.println("예매된 영화가 없습니다.");
             return;
         }
-        // Map의 모든 key(영화 제목)들을 순회하며 누적 인원 출력
         for (String title : movieCountMap.keySet()) {
             System.out.println(title + ": " + movieCountMap.get(title) + "명");
         }
